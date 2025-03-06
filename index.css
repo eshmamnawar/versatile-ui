@@ -13,7 +13,7 @@ body {
     max-width: 1000px;
     margin: auto;
 }
-span{
+#font-color{
     color: rgba(230, 83, 60, 1) ;
     font-weight: 900;
 }
@@ -48,8 +48,9 @@ span{
     margin: auto;
     color: white;
     font-weight:bolder;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-top: 5px;
+    position: relative; /* Added to allow absolute positioning of child elements */
 }
 
 .banner_heading2{
@@ -72,6 +73,7 @@ span{
     color: white;
     border: none;
     border-radius: 40px;
+    margin-top: 50px;
 }
 
 .btn2{
@@ -83,6 +85,35 @@ span{
     color: white;
     border: 1px solid white ;
     border-radius: 40px;
+    margin-top: 50px;
 }
 
+.badge1 {
+    filter: blur();
+    overflow: hidden;
+    background: rgba(0, 0, 0, .5);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border: 1px;
+    border-radius: 5px;
+    width: 130px;
+    height: 80px;
+    position: absolute; 
+    bottom: 90px; 
+    left: 600px; 
+}
 
+.badge2{
+    filter: blur();
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 180px;
+    height: 80px;
+    position: absolute; 
+    bottom: 250px; 
+    left: 820px; 
+}
